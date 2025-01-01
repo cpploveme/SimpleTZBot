@@ -1,0 +1,6 @@
+aiohttp
+cryptography
+PyYAML
+tgcrypto
+pyrogram
+loguru

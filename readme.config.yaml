@@ -1,0 +1,17 @@
+SuAdmin: # 超级管理员id
+- 你的id
+Admin: # 管理员id 具体权限区别请查看 README.md
+- 管理员的id
+Bot:
+  ApiHash: 你的ApiHash # 在 https://my.telegram.org/apps 获取
+  ApiId: 你的ApiId  # 同上
+  Token: 你的BotToken # 在 @BotFather 获取
+SlaveConfig:
+  Slaves:
+    Miku:
+      Address: ws://1.2.3.4:54321/path # 后端地址
+      Token: WsBackendToken # 后端链接密钥
+  Timeout: 10 # 链接后端超时时长
+Script: ./info.js # 检测脚本路径
+CheckInterval: 60 # 自动检测间隔 单位秒
+Chat: 群聊 Id
