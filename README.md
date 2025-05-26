@@ -154,6 +154,8 @@ cd Js2Py
 pip install .
 ```
 
+3.13 要用 http://github.com/a-j-albert/Js2Py---supports-python-3.13
+
 才能正常启动后端。
 
 对于后端的启动参数请自行查看源代码或查看提示这里不再赘述。
